@@ -3,8 +3,7 @@ import pandas as pd
 
 st.title("Student Performance Prediction and Clustering")
 
-df = pd.read_csv("student_performance_with_clusters.csv")
-
+df = pd.read_csv("student_performance.csv")
 st.subheader("Dataset")
 st.dataframe(df)
 
